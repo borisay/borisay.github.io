@@ -63,7 +63,7 @@ export default function Footer() {
         </div>
         <div className="copyright text-center flex justify-center items-center">
           <div>
-            <h4><p>&copy; 2025 Atrium Design, LCC</p></h4>
+            <h4><p>&copy; 2025 Atrium Design, LLC</p></h4>
             <h4> All rights reserved</h4>
           </div>
         </div>
