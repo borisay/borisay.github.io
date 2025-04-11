@@ -7,21 +7,22 @@
     // Single Page Apps for GitHub Pages
     // MIT License
     // https://github.com/rafgraph/spa-github-pages
-    var pathSegmentsToKeep = 0;
-    var l = window.location;
-    l.replace(
-      l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-      l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-      l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-      (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-      l.hash
-    );
+    // var pathSegmentsToKeep = 0;
+    // var l = window.location;
+    // l.replace(
+    //   l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+    //   l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+    //   l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+    //   (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+    //   l.hash
+    // );
   </script>
 </head>
 <body>
 <div>
 <h2 className={"error404"}>It appears the page you were looking for doesn't exist or has moved.</h2>
 <p>Please use the main navigation to find what you need or click below to return to the home page.</p>
+  <a href="/">Or go home page</a>
 </div>
 </body>
 </html>
